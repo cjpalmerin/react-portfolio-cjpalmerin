@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/cjpalmerin/react-portfolio-cjpalmerin#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
