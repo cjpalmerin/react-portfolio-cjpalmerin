@@ -1,4 +1,6 @@
 const express = require("express");
+const router = require('express').Router();
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -10,6 +12,10 @@ app.use(express.json());
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
+
+router.use((req, res) => {
+  res.sendFile(path.join(__dirname, "../client/build/index.html"))
+});
 
 // Start the API server
 app.listen(PORT, function() {
