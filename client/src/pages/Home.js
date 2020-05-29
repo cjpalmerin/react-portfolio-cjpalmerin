@@ -11,9 +11,9 @@ export default function Home() {
                 <img id="logo" alt="CJ Logo" src= {logo} />                
                 <Router>
                     <div id="front-menu">
-                        <a href= {process.env.PUBLIC_URL +"/aboutme"} className="menu-button">About Me</a>
+                        <a href= "/aboutme" className="menu-button">About Me</a>
                         <p className="separator"> | </p>
-                        <a href={process.env.PUBLIC_URL +"/projects"} className="menu-button">Projects</a>
+                        <a href="/projects" className="menu-button">Projects</a>
                         <p className="separator"> | </p>
                         <Link to="/resume" className="menu-button">Resume</Link>
                         <p className="separator"> | </p>
