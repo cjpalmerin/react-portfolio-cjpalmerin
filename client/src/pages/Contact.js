@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-export default function Contact() {
+function Contact() {
     return (
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
@@ -28,3 +28,5 @@ const spanStyling = {
     fontSizing: '3em',
     color: 'white'
 }
+
+export default Contact;

@@ -4,7 +4,7 @@ import '../App.css';
 import profilePic from '../images/08449DB0-F0BD-4670-B919-44936B033F4B copy.JPG'
 
 
-export default function AboutMe() {
+function AboutMe() {
     return (
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
@@ -48,3 +48,5 @@ const linkStyling = {
     fontSizing: '4em',
     color: 'white'
 }
+
+export default AboutMe;
