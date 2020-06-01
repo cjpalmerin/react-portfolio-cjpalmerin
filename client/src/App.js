@@ -20,7 +20,10 @@ function App() {
     <Router>
       <div>
         <Route exact path="/">
+          <Navbar />
           <Home />
+          <AboutMe />
+          <Footer />
         </Route>
         <Route exact path="/aboutme">
           <AboutMe />
