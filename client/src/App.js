@@ -23,6 +23,11 @@ function App() {
           <Navbar />
           <Home />
           <AboutMe />
+          <Projects />
+          <Resume />
+          <Contact />
+          <WeatherEats />
+          <LocalSpot />
           <Footer />
         </Route>
         <Route exact path="/aboutme">
