@@ -22,9 +22,11 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
+        <Navbar />
         <Route exact path="/aboutme" component={AboutMe} />
-        <Route exact path="/projects" component={Navbar, Projects, Footer} />
+        <Route exact path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
+        <Footer />
 
       </div>
     </Router>

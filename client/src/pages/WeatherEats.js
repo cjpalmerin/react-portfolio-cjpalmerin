@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
 
-import demopic2 from '../images/weatherEats/weatherEats-02.png'
-import demopic1 from '../images/weatherEats/weatherEats-01.png'
-import demopic3 from '../images/weatherEats/weatherEats-03.png'
-import demopic4 from '../images/weatherEats/weatherEats-04.png'
-import WELogo from '../images/weatherEats/weatherEats-06.png'
+const demopic2 = '../images/weatherEats/weatherEats-02.png'
+const demopic1 = '../images/weatherEats/weatherEats-01.png'
+const demopic3 = '../images/weatherEats/weatherEats-03.png'
+const demopic4 = '../images/weatherEats/weatherEats-04.png'
+const WELogo = '../images/weatherEats/weatherEats-06.png'
 
 
 export default function WeatherEats() {

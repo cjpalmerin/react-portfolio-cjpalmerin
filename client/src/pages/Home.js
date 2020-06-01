@@ -1,14 +1,14 @@
 import React from 'react'
 import '../App.css'
 import { BrowserRouter as Router, Link } from 'react-router-dom'
-import logo from '../images/cj-web-icon.png'
+// const logo = '../assets/images/cj-web-icon.png'
 
 
 export default function Home() {
     return (
         <div className="jumbotron-home jumbotron-fluid">
             <div className="container">
-                <img id="logo" alt="CJ Logo" src= {logo} />                
+                <img id="logo" alt="CJ Logo" src="../assets/images/cj-web-icon.png" />                
                 <Router>
                     <div id="front-menu">
                         <a href= "/aboutme" className="menu-button">About Me</a>

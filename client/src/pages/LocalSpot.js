@@ -1,11 +1,11 @@
 import React from 'react';
 import '../App.css';
 
-import LSLogo from "../images/localspot/localspot-05.png";
-import LSdemo6 from "../images/localspot/localspot-06.png";
-import LSdemo7 from "../images/localspot/localspot-07.png";
-import LSscreenshot from "../images/localspot/localspot-screenshot.png";
-import LSadminshot from "../images/localspot/localspot-admin-shot.png";
+const LSLogo = "../assets/images/localspot/localspot-05.png";
+const LSdemo6 = "../assets/images/localspot/localspot-06.png";
+const LSdemo7 = "../assets/images/localspot/localspot-07.png";
+const LSscreenshot = "../assets/images/localspot/localspot-screenshot.png";
+const LSadminshot = "../assets/images/localspot/localspot-admin-shot.png";
 
 
 export default function LocalSpot() {

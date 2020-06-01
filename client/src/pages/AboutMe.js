@@ -1,16 +1,13 @@
 import React from 'react';
 import '../App.css';
 
-import profilePic from '../images/08449DB0-F0BD-4670-B919-44936B033F4B copy.JPG'
-
-
 function AboutMe() {
     return (
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
                 <div className="row">
                     <div className="col-md-4">
-                        <img id="profile-pic" alt="face" src= {profilePic} />
+                        <img id="profile-pic" alt="face" src='../assets/images/08449DB0-F0BD-4670-B919-44936B033F4B_copy.JPG' />
                     </div>
                     <div className="col-md-6">
                         <br />
