@@ -31,7 +31,9 @@ function App() {
           <Footer />
         </Route>
         <Route exact path="/aboutme">
+          <Navbar />
           <AboutMe />
+          <Footer />
         </Route>
 
       </div>

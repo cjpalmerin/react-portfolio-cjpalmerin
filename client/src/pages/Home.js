@@ -11,7 +11,10 @@ export default function Home() {
                 <img id="logo" alt="CJ Logo" src="../assets/images/cj-web-icon.png" />                
                 <Router>
                     <div id="front-menu">
-                        <a href= "/aboutme" className="menu-button">About Me</a>
+                        <Link to ='/aboutme'>
+                        {/* <a href= "/aboutme" className="menu-button">About Me</a> */}
+                        <p className="menu-button">About Me</p>
+                        </Link>
                         <p className="separator"> | </p>
                         <a href="/projects" className="menu-button">Projects</a>
                         <p className="separator"> | </p>
