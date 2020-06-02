@@ -7,7 +7,6 @@ import Footer from './components/Footer'
 
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe'
-import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import ProjectsV2 from './pages/ProjectsV2'
 
@@ -18,12 +17,12 @@ function App() {
     <Router>
       <div>
         <Route exact path="/">
-          <Navbar />
+          {/* <Navbar /> */}
           <Home />
           <AboutMe />
           <ProjectsV2 />
           <Resume />
-          <Contact />
+          {/* <Contact /> */}
           <Footer />
         </Route>
         <Route exact path="/aboutme">

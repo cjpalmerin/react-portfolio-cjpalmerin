@@ -28,10 +28,3 @@ export default function Footer() {
         </div>
     )
 }
-
-
-const spanStyle = {
-    fontSize: '1em',
-    color: 'white'
-
-}

@@ -6,6 +6,7 @@ function AboutMe() {
         <div className="jumbotron jumbotron-fluid">
             <div className="container">
                 <div className="row">
+                    <div className ="col-md-1"></div>
                     <div className="col-md-4">
                         <img id="profile-pic" alt="face" src='../assets/images/08449DB0-F0BD-4670-B919-44936B033F4B_copy.JPG' />
                     </div>

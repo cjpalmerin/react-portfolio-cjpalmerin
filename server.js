@@ -17,7 +17,7 @@ if (process.env.NODE_ENV === "production") {
 //   res.sendFile(path.join(__dirname, "../client/build/index.html"))
 // });
 
-// app.get('*', (req, res) => res.sendFile(path.resolve('public', 'index.html')));
+app.get('*', (req, res) => res.sendFile(path.resolve('public', 'index.html')));
 
 
 // Start the API server
