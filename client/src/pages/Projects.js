@@ -77,7 +77,7 @@ export default function Projects() {
               <a href="https://mongodb-fitness-tracker-cjpalm.herokuapp.com/?id=5ec001cb8ff40d0017cb66d0" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i></a>
             </span>
             <span style={spanStyling}>
-              <a href="https://github.com/cjpalmerin/mongodb-fitness-tracker" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-square"></i></a>
+            <a href="https://github.com/cjpalmerin/mongodb-fitness-tracker" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-square"></i></a>
             </span>
             <br />
           </p>

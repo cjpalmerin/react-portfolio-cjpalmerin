@@ -3,9 +3,9 @@ import '../App.css';
 
 export default function Projects() {
   return (
-    <div className="container projects-div">
+    <div className="container">
       <div className="row">
-        <div className="col-sm-12">
+        <div className="col-sm-12 projects-div">
 
           <div className="project-div">
             <h6>Northwestern Bootcamp Project One</h6>

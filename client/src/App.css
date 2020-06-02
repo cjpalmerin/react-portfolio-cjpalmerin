@@ -77,7 +77,10 @@ a:hover {
 }
 
 #resume {
-  width: 100%;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #weatherEats-logo {
@@ -206,11 +209,27 @@ a:hover {
 }
 
 .projects-div {
-  margin-left: auto;
-  margin-right: auto;
-}
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;}
 
 .projects-icons {
   font-size: 25px;
   color:white;
+}
+
+.contact-icons {
+  font-size: 30px;
+  color:white;
+  margin-right: 5px;
+}
+
+.footer-icons {
+  font-size: 15px;
+  color:white;
+  margin-right: 2px;
 }
