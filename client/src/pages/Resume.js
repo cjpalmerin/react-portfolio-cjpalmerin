@@ -6,9 +6,9 @@ import '../App.css';
 
 export default function Resume() {
     return (
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12">
                     <img src='../assets/images/palmerinwanekCJ-resume_2020-02.png' alt="CJ Resume" id="resume" />
                 </div>
             </div>

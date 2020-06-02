@@ -7,11 +7,9 @@ import Footer from './components/Footer'
 
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe'
-import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-import WeatherEats from './pages/WeatherEats';
-import LocalSpot from './pages/LocalSpot';
+import ProjectsV2 from './pages/ProjectsV2'
 
 
 function App() {
@@ -23,11 +21,9 @@ function App() {
           <Navbar />
           <Home />
           <AboutMe />
-          <Projects />
+          <ProjectsV2 />
           <Resume />
           <Contact />
-          <WeatherEats />
-          <LocalSpot />
           <Footer />
         </Route>
         <Route exact path="/aboutme">

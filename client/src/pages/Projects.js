@@ -84,6 +84,37 @@ export default function Projects() {
           <br />
           <br />
 
+
+          <div className="project-div">
+            <h6>Northwestern Bootcamp Project One</h6>
+            <img src="../assets/images/weatherEats/weatherEats-06.png" className="project-img" />
+            <p className="projects-p">First project completed at Northwestern Coding Bootcamp. Utilizing two APIs, Open Weather and the Meal DB my
+            team and I created an app that provides food suggestions based on the weather. I was in charge of front-end
+              and made contributions to JavaScript.</p>
+            <span style={spanStyling}>
+              <a href="https://cbruder1292.github.io/Project1/" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i></a>
+            </span>
+            <span style={spanStyling}>
+              <a href="https://github.com/cbruder1292/Project1" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-square"></i></a>
+            </span>
+          </div>
+
+          <div className="project-div">
+            <h6>Northwestern Bootcamp Project Two</h6>
+            <img src="../assets/images/localspot/localspot-05.png" className="project-img" />
+            <p className="projects-p">Utilizing node.js, express.js, express-handlebars,
+          materalize, mysql2, and sequelize along Yelp-Fusion API, my team created a curated list of places to go in
+          Chicago. Users can view the list and add a like to whichever spots they like or want to hit up. I was in
+              charge of designing the front end and contributed to back end routing and JavaScript.</p>
+            <span style={spanStyling}>
+              <a href="https://agile-journey-25400.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <i className="fas fa-link"></i></a>
+            </span>
+            <span style={spanStyling}>
+              <a href="https://github.com/blapete/project-2" target="_blank" rel="noopener noreferrer"> <i className="fab fa-github-square"></i></a>
+            </span>
+          </div>
+
+
         </div>
       </div>
     </div>
